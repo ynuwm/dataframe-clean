@@ -116,10 +116,3 @@ def convert_str_datetime(df):
     ------
     '''
     df.insert(loc=2, column='timestamp', value=pd.to_datetime(df.transdate, format='%Y-%m-%d %H:%M:%S.%f')) 
-
-
-
-
-
-
-
